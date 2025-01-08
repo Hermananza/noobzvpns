@@ -155,3 +155,11 @@ noobzvpns edit username -p 12345 -e 30 -d 1 -b 500
 ```
 noobzvpns unblock username
 ```
+### Renew akun
+```
+noobzvpns renew username
+```
+### Reset BW
+```
+noobzvpns reset username
+```
