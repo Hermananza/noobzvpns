@@ -48,7 +48,7 @@ resolv_conf = "/etc/resolv.conf"
 # used for unique packet tagging.
 # make sure your client know this identifier, if not your client NEVER be connected to this server.
 # value string range-length is 1-256 with pattern (^[a-zA-Z0-9\.\-\_]+$)
-identifier = "noobz-id.github.io"
+identifier = "hc-store"
 # server banner text message for send to client.
 # value string range-length is 0-1000.
 #banner = "You are connected to noobzvpn-server" for disable
