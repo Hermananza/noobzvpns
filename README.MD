@@ -138,8 +138,9 @@ Nanti akan muncul guide nya
 
 Contoh buat:
 add user "admin" , pass 12345, bandwidth 50pgb, max device 1, expired 30 hari.
-
+```
 noobzvpns add admin -p 12345 -b 500 -d 1 -e 30
+```
 Cek Akun
 ```
 noobzvpns print-all
