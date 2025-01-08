@@ -151,3 +151,7 @@ noobzvpns print-all
 ```
 noobzvpns edit username -p 12345 -e 30 -d 1 -b 500
 ```
+### Unblock
+```
+noobzvpns unblock username
+```
