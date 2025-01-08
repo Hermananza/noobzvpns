@@ -137,7 +137,14 @@ noobzvpn edit -h
 Nanti akan muncul guide nya
 
 Contoh buat:
-add user "admin" , pass admin, bandwidth 10gb, max device 3, expired 7 hari.
+add user "admin" , pass 12345, bandwidth 50pgb, max device 1, expired 30 hari.
 
-noobzvpns add admin -p admin -b 10 -d 3 -e 7
-
+noobzvpns add admin -p 12345 -b 500 -d 1 -e 30
+Cek Akun
+```
+noobzvpns print-all
+```
+Edit User
+```
+noobzvpns edit username -p 12345 -e 30 -d 1 -b 500
+```
