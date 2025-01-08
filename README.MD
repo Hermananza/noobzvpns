@@ -125,10 +125,12 @@ Or, you can change it using your own signed certificate or free signed certifica
 For manage user accounts you can use the command line by execute ``noobzvpns`` in your ssh or terminal (shell) it will guide you how to do it.
 
 ### Edit akun
-Nambah akun: ```bash
+Nambah akun: 
+```
 noobzvpn add -h
 ```
-Edit akun: ```bash
+Edit akun: 
+```
 noobzvpn edit -h
 ```
 
