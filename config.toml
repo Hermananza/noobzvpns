@@ -5,13 +5,13 @@
 # format is array of ports, and port range is 1-65535.
 # the ports must be different number from it array also in [tcp_ssl]
 #listen_ports = [80] for disable
-listen_ports = [8080]
+listen_ports = [80]
 
 [tcp_ssl]
 # format is array of ports, and port range is 1-65535.
 # the ports must be different number from it array also in [tcp_plain]
 #listen_ports = [443] for disable
-listen_ports = [8443]
+listen_ports = [443]
 # Select TLS Version.
 # AUTO: is recommended, it will follow the client.
 # TLSv1_2: TLS version 1.2
