@@ -124,4 +124,18 @@ Or, you can change it using your own signed certificate or free signed certifica
 ### Commandline
 For manage user accounts you can use the command line by execute ``noobzvpns`` in your ssh or terminal (shell) it will guide you how to do it.
 
+### Edit akun
+Nambah akun: ```bash
+noobzvpn add -h
+```
+Edit akun: ```bash
+noobzvpn edit -h
+```
+
+Nanti akan muncul guide nya
+
+Contoh buat:
+add user "admin" , pass admin, bandwidth 10gb, max device 3, expired 7 hari.
+
+noobzvpns add admin -p admin -b 10 -d 3 -e 7
 
